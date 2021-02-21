@@ -16,8 +16,8 @@
   font-family: "Verdana", "Tahoma", sans-serif;
   font-size: 14px;
   line-height: 18px;
-  color: #f2f2f2;
-  background-color: #17161a;
+  color: #333333;
+  background-color: #eae9f2;
 }
 
 .section-title {
@@ -40,7 +40,6 @@ a:focus {
 
 .page-header {
   margin-bottom: 40px;
-  color: #333333;
   background-color: #ffffff;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
@@ -66,6 +65,34 @@ a:focus {
   font-weight: bold;
   font-size: 36px;
   line-height: 48px;
+}
+
+.theme-button {
+  position: relative;
+  margin-top: 20px;
+  padding-top: 7px;
+  padding-right: 16px;
+  padding-bottom: 7px;
+  padding-left: 16px;
+  font-size: 12px;
+  border-radius: 2px;
+  background-color: transparent;
+  cursor: pointer;
+  color: #6653d9;
+  border: 1px solid #6653d9;
+}
+
+.theme-button:active {
+  opacity: 0.8;
+}
+
+.theme-button:focus,
+.theme-button:hover {
+  color: #ffffff;
+  background-color: #6653d9;
+}
+.theme-button:focus {
+  outline-color: #b6aaff;
 }
 
 .about {
@@ -107,7 +134,6 @@ a:focus {
   font-size: 16px;
   line-height: 24px;
   font-style: italic;
-  color: #333333;
   background-color: #ffffff;
 }
 
@@ -158,4 +184,39 @@ p.contacts-name {
 .page-footer p {
   margin: 0;
   padding: 0;
+}
+
+/* Тёмная тема */
+.dark-theme {
+  color: #f2f2f2;
+  background-color: #17161a;
+}
+
+.dark-theme .page-header{
+  background-color: #3f3c53;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.dark-theme a {
+  color: #9484f2;
+}
+
+.dark-theme .theme-button {
+  color: #9484f2;
+  border: 1px solid #9484f2;
+}
+
+.dark-theme .theme-button:focus,
+.dark-theme .theme-button:hover {
+  color: #17161a;
+  background-color: #9484f2;
+}
+
+.dark-theme .status p {
+  background-color: #2a2930;
+}
+
+.dark-theme .page-footer {
+  background-color: #373540;
+  color: #f2f2f2;
 }

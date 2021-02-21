@@ -1,70 +1,45 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>Инструктор Кекс</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
-  </head>
-  <body>
-    
-      <header class="page-header">
-        <div class="container">
-          <a href="mailto:Azraill1989@gmail.com">Azraill1989@gmail.com</a>
-          <a href="tel:+375295728470">+375 29 572 84 70</a>
-        </div>
-      </header>
-
-      <section class="hero-image">
-        <div class="container">
-          <h1 class="heading">Неопознанный</h1>
-          <p>Juni</p>          
-        </div>
-      </section>
-
-      <section class="intro">
-        <div class="container">
-          <h2 class="subheading">Давайте познакомимся</h2>
-          <figure>
-            <img src="files/user.jpg" width="928" height="536" alt="Фотография Неопознанного Енота">
-          </figure>
-        </div>
-        <div>
-          <h3>Пара слов о себе</h3>
-          <p>Здесь будет краткая биография.</p>
-        </div>
-        <div>
-          <h3>Чем могу быть полезен</h3>
-          <p>Здесь будет описание моих преимуществ.</p>
-        </div>
-
-        <!-- блок навыков -->
-
-        <div class="skills">
-          <h3>Мои навыки</h3>
-          <dl class="skills-list">
-            <dt class="skill-html">HTML</dt>
-            <dd class="level"><div style="width: 60%;">60%</div></dd>
-            <dt class="skill-css">CSS</dt>
-            <dd class="level"><div style="width: 40%;">40%</div></dd>
-          </dl>
-        </div>
-      </section>
-
-      
-      <div class="container">
-      <figure class="project-image">
-        <img src="files/project.jpg" width="928" height="536" alt="Cайт инструктора Кекса">
-      </figure>
-      <a class="button" href="source/project/index.html">Открыть страницу</a>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style-themes.css">
+  <title>Мой сайт – Неопознанный енотик</title>
+</head>
+<body class="page">
+  <header class="page-header">
+    <div class="container">
+      <h1 class="page-title">Мой сайт</h1>
+      <p><i>По всем вопросам пишите сюда:</i><br><a href="mailto:enot_neopoznanniy@gmail.com">enot_neopoznanniy@gmail.com</a></p>
+      <button class="theme-button" type="button">Изменить тему</button>
+    </div>
+  </header>
+  <main>
+    <section class="about container">
+      <h2 class="section-title">Привет, я Опознанный енот</h2>
+      <img class="about-image" src="img/avatar.svg" width="147" height="147" alt="Неопознанный енот">
+      <div class="about-content">
+        <p>Товарищи! постоянное информационно-пропагандистское обеспечение нашей деятельности обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия.</p>
+        <p>С другой стороны постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке существенных финансовых и административных условий.</p>
       </div>
-
-      <footer class="page-footer">
-        <div class="container">
-          <a class="footer-email" href="mailto:Azraill1989@gmail.com">Azraill1989@gmail.com</a>
-          <a class="footer-phone" href="tel:+375295728470">+375 29 572 84 70</a>
-        </div>
-      </footer>
-    
-  </body>
+    </section>
+    <section class="status container">
+      <h2 class="section-title">Мой статус</h2>
+      <p>#яжверстальщик!</p>
+    </section>
+    <section class="contacts container">
+      <h2 class="section-title">Контакты для связи</h2>
+        <p class="contacts-name">Неопознанный енот</p>
+        <p><i>email:</i> <a href="mailto:enot_neopoznanniy@gmail.com">enot_neopoznanniy@gmail.com</a></p>
+        <p><i>телефон:</i> <a href="tel:+79876543210">+79876543210</a></p>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <div class="container">
+      <p>© Неопознанный енот</p>
+      <p>2020</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
 </html>
